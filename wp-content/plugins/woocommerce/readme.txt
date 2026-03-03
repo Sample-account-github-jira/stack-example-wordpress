@@ -4,7 +4,7 @@ Tags: online store, ecommerce, shop, shopping cart, sell online, storefront, che
 Requires at least: 6.2
 Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 8.2.4
+Stable tag: 8.2.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -162,6 +162,10 @@ If you encounter issues with the shop/category pages after an update, flush the 
 WooCommerce comes with some sample data you can use to see how products look; import sample_products.xml via the [WordPress importer](https://wordpress.org/plugins/wordpress-importer/). You can also use the core [CSV importer](https://docs.woocommerce.com/document/product-csv-importer-exporter/?utm_source=wp%20org%20repo%20listing&utm_content=3.6) or our [CSV Import Suite extension](https://woocommerce.com/products/product-csv-import-suite/?utm_source=wp%20org%20repo%20listing&utm_content=3.6) to import sample_products.csv
 
 == Changelog ==
+
+= 8.2.5 2026-02-24 =
+
+* Security - Fixed path validation in Store API batch endpoint
 
 = 8.2.4 2025-12-18 =
 
